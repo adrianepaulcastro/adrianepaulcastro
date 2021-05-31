@@ -21,7 +21,17 @@ In order for the GPA-ulator to work, the programmer must apply the following pro
 | Programming Concept  | Pertinent Program Source Code Line                                                                                                                                                                                                    |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1D and 2D arrays     | 1D Array = line 19, line 76, line 75, line 74, line 103, line 135, line <br> 2D Array = line 175, line 140 |
-| Strings, Array of Strings, and String Processing     | strings processor: line 168 <br> strings/array strings: line 159 to 164 |
+| Strings, Array of Strings, and String Processing     | Strings Processor: line 168 <br> Strings/Array Strings: line 159 to 164 |
 | File I/O, Pointers   | File I/O: line 108 to 126 <br> Pointer: Line 47 |
 | Object-Oriented Programming   | line 9 to 69 <br> line 71 to 105 <br> line 170 to 175 |
 | Loops     | For loop: line 31, line 62, line 98, line 117, line 119, line 132, line 143 <br> do while Loop: Line 39 to 50 |
+
+These are some sample outputs in the program:
+
+| Sample Console Input | Expected Console Output  |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| rain <br> pig            | Welcome De Lasalle University's GPA-Ulator'! <br> "Kindly please log-in first before using the app." <br><br> USERNAME: rain <br> PASSWORD: pig <br> <br> First Name: John <br> Martinez  |
+| fgfg <br> dfsdf            | Welcome De Lasalle University's GPA-Ulator'! <br> "Kindly please log-in first before using the app." <br><br> USERNAME: fgfg <br> PASSWORD: dfsdf <br> ERROR: incorrect username and password |
+| Number of terms to track: 1 <br> Number of subjects you are taking for the term: 2 <br>  | Subject: FNDSTAT <br> Grade 3.0 <br> Total Unit of the Subject: 3 <br> Subject: FNDMATH <br> Grade 4.0 <br> Total Unit of the Subject: 3 <br> <br> GPA: 4.0 <br> CGPA: 4.0 <br> Award: 1st Dean's Lister |
+
+
